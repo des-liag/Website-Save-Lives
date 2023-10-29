@@ -1,0 +1,52 @@
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #e20505;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #eca4a4;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+.main {
+    margin-left: 250px; /* Same as the width of the sidenav */
+  }
+
+  .jumbotron {
+      background-color: rgba(142, 152, 163, 0.548);
+      color: #e20505;
+  }
+
+  p.round2 {
+    border: 2px solid rgba(211, 6, 6, 0.986);
+    border-radius: 8px;
+    padding: 5px;
+    color:rgb(241, 7, 7);
+  }
+
+  
+  
+
+ 
